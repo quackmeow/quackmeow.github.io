@@ -1,0 +1,32 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #597159;
+  color: white;
+  font-family: serif;
+  font-size: 16px;
+  border: white;
+}
+
+label{
+  display: block;
+  margin: 1rem;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+h1{
+  text-align: center; 
+  color: #264018;
+}
+
+p{
+  text-align: center;
+  color: #264018; 
+}
