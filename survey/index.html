@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Page Title Here</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Fun Survey</h1>
+  <p id="description">Answer every single question!</p>
+  <form id="survey-form">
+    <label  id="name-label">Please enter your name:<br>
+      <input placeholder="name" id="name" type="text" required >
+    </label>
+    <label id="email-label">Please enter your email:<br>
+      <input placeholder="email" id="email" type="email" required>
+    </label>
+    <label id="number-label">Enter your favorite number:<br>
+      <input placeholder="#" id="number" type="number" min="0" max="100">
+    </label>Please select what you are:<select id="dropdown">
+  <option disabled selected></option>
+  <option>I am a human</option>
+  <option>I am a alien</option>
+  <option>Other</option>
+  </select>
+<label>Check this circle if you have a cat
+  <input name="name" value="value" type="radio">
+  </label>
+ <label>Check this circle if you have a dog
+  <input name="name" value="value" type="radio">
+  </label>
+ 
+ <label>Burrito?
+   <input value="value" type="checkbox">
+   </label>
+    <label>Burger?
+   <input value="value" type="checkbox">
+   </label>
+ 
+ <label for="story">What is your favorite vacation memory?
+</label>
+ 
+   <textarea id="story" name="story">my favorite memory was...
+     </textarea>
+
+<label>Confirm you are done with the survey
+  <input id="submit" type="submit">
+  </label>
+
+
+
+
+
+
+
+
+  </form>
+</body>
+
+</html>
