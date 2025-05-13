@@ -1,0 +1,40 @@
+#image {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #b23318;
+}
+
+#title{
+  color: #e34514;
+  display: block;
+  text-align: center;
+  font-size: 54px;
+  font-family: Monaco;
+
+}
+body{
+  background-color:#634039;
+}
+#img-caption{
+  text-align: center;
+  margin-top: 6px;
+  color: #caa59d;
+}
+#tribute-info{
+  /* text-align: center; */
+  color: #caa59d;
+}
+ul {
+   margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  font-weight: bold;
+}
+
+#tribute-info p {
+  text-align: center;
+}
